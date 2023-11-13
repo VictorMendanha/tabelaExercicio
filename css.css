@@ -1,0 +1,25 @@
+body {
+    background-color: blue;
+}
+
+.fieldset {
+    background-color: white;
+
+}
+
+.Titulo {
+    font-weight: normal;
+    color: blue;
+    letter-spacing: .15rem;
+}
+
+.flex-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+    border: none;
+    padding: .6em 0;
+    border-bottom: .1em solid gray; 
+}
