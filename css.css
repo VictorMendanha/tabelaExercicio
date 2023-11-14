@@ -1,9 +1,24 @@
+html {
+    font-size: 62.5%;
+    height: 100vh;
+}
 body {
+    min-height: 100%;
     background-color: blue;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.alinhar {
+    width: 60rem;
+    margin: auto;
+}
 .fieldset {
     background-color: white;
+    border-left: .6em solid navy;
+    padding: 2em 5em;
 
 }
 
@@ -18,8 +33,40 @@ body {
     flex-direction: column;
 }
 
+.nomesLabel {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
 .barra {
     border: none;
-    padding: .6em 0;
+    padding: .6em 1em;
     border-bottom: .1em solid gray; 
+}
+
+.barra:focus {
+    border: none;
+    outline: .1rem solid blue;
+}
+
+.flex-cadastro-fim {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoCadastro{
+    background-color: blue;
+    border-radius: .4em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .15em;
+}
+
+.cadastroDirecionar {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: .5em;
+    color: blue;
 }
