@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html {
     font-size: 62.5%;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
-root {
+:root {
     --color-blue: #3a68b7;
 }
 
