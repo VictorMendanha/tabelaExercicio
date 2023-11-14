@@ -2,9 +2,14 @@ html {
     font-size: 62.5%;
     height: 100vh;
 }
+
+root {
+    --color-blue: #3a68b7;
+}
+
 body {
     min-height: 100%;
-    background-color: blue;
+    background-color: var(--color-blue);
     font-size: 1.6rem;
     display: flex;
     align-items: center;
@@ -24,7 +29,7 @@ body {
 
 .Titulo {
     font-weight: normal;
-    color: blue;
+    color: var(--color-blue);
     letter-spacing: .15rem;
 }
 
@@ -46,7 +51,7 @@ body {
 
 .barra:focus {
     border: none;
-    outline: .1rem solid blue;
+    outline: .1rem solid var(--color-blue);
 }
 
 .flex-cadastro-fim {
@@ -55,7 +60,7 @@ body {
 }
 
 .botaoCadastro{
-    background-color: blue;
+    background-color: var(--color-blue);
     border-radius: .4em;
     color: white;
     text-transform: uppercase;
@@ -69,5 +74,5 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     margin-left: .5em;
-    color: blue;
+    color: var(--color-blue);
 }
